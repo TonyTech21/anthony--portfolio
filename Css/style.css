@@ -214,10 +214,9 @@ h6 {
 /* home background  */
 .bg{
   background: url('img/nelly3.jpg') no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   text-align: center;
   background-position: center;
-  object-fit: cover;
 }
 
 #home h1{
