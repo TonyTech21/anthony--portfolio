@@ -213,30 +213,28 @@ h6 {
 
 /* home background  */
 .bg{
-  background: url('img/nelly3.jpg') no-repeat;
+  background: url('img/mainprofile.jpg') no-repeat;
   background-size: 100% 100%;
   text-align: center;
   background-position: center;
 }
 
 #home h1{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   padding-top: 20vh;
   line-height: 56px;
 }
 #intro{
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #prof {
   font-size: 40px;
   font-weight: 700;
 }
-#intro {
-  font-size: 23px;
-  font-weight: 600;
-}
+
 /* Social button */
 
 .social-links{
@@ -376,7 +374,7 @@ h6 {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hex {
