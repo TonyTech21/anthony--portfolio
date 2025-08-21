@@ -213,26 +213,30 @@ h6 {
 
 /* home background  */
 .bg{
-  background: url('img/AIbg.jpg') no-repeat;
-  background-size: 100% 100%;
+  background: url('https://i.ibb.co/h1f7Vkf/walid.jpg') no-repeat;
+  background-size: cover;
   text-align: center;
   background-position: center;
+  object-fit: cover;
 }
 
 #home h1{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   padding-top: 20vh;
   line-height: 56px;
 }
 #intro{
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 700;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #prof {
   font-size: 40px;
   font-weight: 700;
+}
+#intro{
+  font-size: 23px;
+  font-weight: 600;
 }
 
 /* Social button */
